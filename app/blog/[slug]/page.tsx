@@ -42,7 +42,7 @@ export default async function BlogPost({
                     {post.image && (
                         <div className="mb-6">
                             <img
-                                src={`http://127.0.0.1:8000/storage/${post.image}`}
+                                src={`${process.env.NEXT_PUBLIC_API_URL}/storage/${post.image}`}
                                 alt={post.title}
                                 className="rounded-lg object-contain max-h-80 w-full"
                             />
