@@ -56,6 +56,44 @@ const config: Config = {
                 md: "calc(var(--radius) - 2px)",
                 sm: "calc(var(--radius) - 4px)",
             },
+            typography: {
+                DEFAULT: {
+                    css: {
+                        pre: {
+                            overflowX: "none",
+                            backgroundColor: "transparent",
+                            marginTop: "0",
+                            marginBottom: "0",
+                            borderRadius: "0",
+                            paddingTop: "0",
+                            paddingInlineEnd: "0",
+                            paddingBottom: "0",
+                            paddingInlineStart: "0",
+                            code: {
+                                backgroundColor: "#1F2937",
+                            },
+                        },
+                    },
+                },
+                invert: {
+                    css: {
+                        pre: {
+                            overflowX: "none",
+                            backgroundColor: "transparent",
+                            marginTop: "0",
+                            marginBottom: "0",
+                            borderRadius: "0",
+                            paddingTop: "0",
+                            paddingInlineEnd: "0",
+                            paddingBottom: "0",
+                            paddingInlineStart: "0",
+                            code: {
+                                backgroundColor: "#1F2937",
+                            },
+                        },
+                    },
+                },
+            },
         },
     },
     plugins: [
